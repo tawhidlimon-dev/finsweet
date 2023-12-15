@@ -1,0 +1,159 @@
+// ========Common code start=========
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ol,ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+  line-height: 0.8;
+}
+.container{
+width: 1280px;
+margin: 0 auto;
+}
+:root{
+  --primary: 'Poppins', sans-serif;
+  --manrope: 'Manrope', sans-serif;
+}
+:root{
+  --secendary: #1C1E53;
+  --primary: #282938;
+}
+// ========Common code end===========
+
+// ========Navbar code start=========
+#navbar{
+  padding: 16px 0;
+  position: absolute;
+  width: 100%;
+  .nav_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    .menu{
+      display: flex;
+      align-items: center;
+      column-gap: 48px;
+      ul{
+        display: flex;
+        align-items: center;
+        column-gap: 32px;
+        a{
+          color: #BBBBCB;
+          font-size: 16px;
+          font-family: 500;
+          line-height: 28px;
+          font-family: var(--primary);
+          transition: all linear 0.3s;
+          &:hover{
+            color: #fff;
+          }
+        }
+      }
+      .btn a{
+        color:#fff;
+        font-size: 16px;
+        font-family: var(--primary);
+        font-weight: 500;
+        line-height: 28px;
+        padding: 16px 48px;
+        border: 2px solid rgba(244, 246, 252, 0.2);
+        border-radius: 41px;
+        background-color: #2405F2;
+        background-color: transparent;
+        transition: all linear 0.3s;
+        &:hover{
+          background-color: #2405F2;
+        }
+      }
+    }
+  }
+}
+// ========Navbar code end===========
+
+// ========Banner code start=========
+#banner{
+  background: var(--secendary);
+  padding: 218px 0 128px 0;
+  .banner__wrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    .content{
+      width: 582px;
+      h1{
+        width: 500px;
+        color: #fff;
+        font-size: 54px;
+        font-family: var(--primary);
+        font-weight: 600;
+        line-height: 74px;
+        margin-bottom: 24px;
+      }
+      p{
+        width: 460px;
+        color: #fff;
+        font-family: var(--primary);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        margin-bottom: 48px;
+      }
+      .btn{
+        display: flex;
+        column-gap: 40px;
+        a{
+          color: #1B1C2B;
+          font-family: var(--manrope);
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 32px;
+          background-color: #FCD980;
+          padding: 16px 56px;
+          border-radius: 41px;
+          &:last-child{
+            background-color: transparent;
+            color: #fff;
+          }
+          i{
+            margin-left: 16px;
+          }
+        }
+      }
+    }
+    .image{
+      width: 638px;
+    }
+  }
+}
+// ========Banner code end===========
+
+// ========Common code start=========
+// ========Common code end===========
+
+// ========Common code start=========
+// ========Common code end===========
+
+// ========Common code start=========
+// ========Common code end===========
+
+// ========Common code start=========
+// ========Common code end===========
+
+// ========Common code start=========
+// ========Common code end===========
+
+// ========Common code start=========
+// ========Common code end===========
+
+// ========Common code start=========
+// ========Common code end===========
