@@ -19,14 +19,10 @@ h1,h2,h3,h4,h5,h6,p{
 width: 1280px;
 margin: 0 auto;
 }
-:root{
-  --primary: 'Poppins', sans-serif;
-  --manrope: 'Manrope', sans-serif;
-}
-:root{
-  --secendary: #1C1E53;
-  --primary: #282938;
-}
+  $primary: 'Poppins', sans-serif;
+  $manrope: 'Manrope', sans-serif;
+  $secendary: #1C1E53;
+  $primary: #282938;
 // ========Common code end===========
 
 // ========Navbar code start=========
@@ -52,7 +48,7 @@ margin: 0 auto;
           font-size: 16px;
           font-family: 500;
           line-height: 28px;
-          font-family: var(--primary);
+          font-family: 'Poppins', sans-serif;
           transition: all linear 0.3s;
           &:hover{
             color: #fff;
@@ -62,7 +58,7 @@ margin: 0 auto;
       .btn a{
         color:#fff;
         font-size: 16px;
-        font-family: var(--primary);
+        font-family: 'Poppins', sans-serif;
         font-weight: 500;
         line-height: 28px;
         padding: 16px 48px;
@@ -82,7 +78,7 @@ margin: 0 auto;
 
 // ========Banner code start=========
 #banner{
-  background: var(--secendary);
+  background: $secendary;
   padding: 218px 0 128px 0;
   .banner__wrapper{
     display: flex;
@@ -94,7 +90,7 @@ margin: 0 auto;
         width: 500px;
         color: #fff;
         font-size: 54px;
-        font-family: var(--primary);
+        font-family: 'Poppins', sans-serif;
         font-weight: 600;
         line-height: 74px;
         margin-bottom: 24px;
@@ -102,7 +98,7 @@ margin: 0 auto;
       p{
         width: 460px;
         color: #fff;
-        font-family: var(--primary);
+        font-family: 'Poppins', sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 28px;
@@ -113,7 +109,7 @@ margin: 0 auto;
         column-gap: 40px;
         a{
           color: #1B1C2B;
-          font-family: var(--manrope);
+          font-family: 'Poppins', sans-serif;
           font-size: 18px;
           font-weight: 600;
           line-height: 32px;
@@ -123,6 +119,11 @@ margin: 0 auto;
           &:last-child{
             background-color: transparent;
             color: #fff;
+            transition: all linear 0.3s;
+          }
+          &:last-child:hover{
+            background-color: #FCD980;
+            color: #1B1C2B;
           }
           i{
             margin-left: 16px;
@@ -137,8 +138,81 @@ margin: 0 auto;
 }
 // ========Banner code end===========
 
-// ========Common code start=========
-// ========Common code end===========
+// ========Work code start=========
+#work{
+  background: #F4F6FC;
+  padding: 128px 0;
+  .work__wrapper{
+    display: flex;
+    .work__content{
+      width: 405px;
+      .heading{
+        color: $primary;
+        font-size: 48px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        line-height: 64px;
+      }
+      p{
+        color: #282938;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        opacity: 0.7;
+        margin: 16px 0;
+      }
+      h6{
+        color: #2405F2;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 32px;
+      }
+    }
+    .work__item__wrapper{
+      width: 656px;
+      margin-left: 142px;
+      .item{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 25px;
+        row-gap: 48px;
+        .number{
+          span{
+            padding: 9px 15px;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 32px; 
+            background-color: #2405F2;
+            border-radius: 8px;
+          }
+          h3{
+            color: #282938;
+            font-family: 'Poppins', sans-serif;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 48px;
+            margin-top: 16px;
+          }
+          p{
+            color: #282938;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            opacity: 0.7;
+            margin-top: 8px;
+            width: 303px;
+          }
+        }
+      }
+    }
+  }
+}
+// ========Work code end===========
 
 // ========Common code start=========
 // ========Common code end===========
