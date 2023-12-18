@@ -399,4 +399,74 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 400;
   line-height: 28px;
   opacity: 0.7;
+}
+
+#about {
+  background: #F4F6FC;
+  padding: 128px 0 106px 0;
+}
+#about .about__wrapper {
+  display: flex;
+  -moz-column-gap: 110px;
+       column-gap: 110px;
+}
+#about .about__wrapper .content__wrapper {
+  width: 327px;
+}
+#about .about__wrapper .content__wrapper h3 {
+  color: #282938;
+  font-size: 38px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  line-height: 56px;
+}
+#about .about__wrapper .content__wrapper p {
+  margin-top: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+#about .about__wrapper .info__wrapper {
+  width: 843px;
+}
+#about .about__wrapper .info__wrapper article {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+}
+#about .about__wrapper .info__wrapper .person {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+#about .about__wrapper .info__wrapper .person .image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+#about .about__wrapper .info__wrapper .person .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#about .about__wrapper .info__wrapper .person .name h5 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+#about .about__wrapper .info__wrapper .person .name span {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 28px;
 }/*# sourceMappingURL=style.css.map */
