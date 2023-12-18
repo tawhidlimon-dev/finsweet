@@ -281,6 +281,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 500;
   line-height: 28px;
   margin: 16px 0 40px 48px;
+  opacity: 0.8;
 }
 #projects .projects__wrapper .big__projects .overlay a {
   color: yellow;
@@ -344,4 +345,58 @@ h1, h2, h3, h4, h5, h6, p {
 }
 #projects .projects__wrapper .small__project .item .overlay a i {
   margin-left: 16px;
+}
+
+#features {
+  background: #F4F6FC;
+  padding: 128px 0;
+}
+#features .heading {
+  width: 630px;
+  text-align: center;
+  margin: 0 auto;
+}
+#features .heading h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+#features .heading h2 {
+  color: #282938;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  line-height: 64px;
+  margin-top: 12px;
+}
+#features .item__wrapper {
+  margin-top: 47px;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  row-gap: 24px;
+}
+#features .item__wrapper .item {
+  width: 405px;
+  height: 316px;
+  background-color: #fff;
+  padding: 58px 33px 0 48px;
+}
+#features .item__wrapper .item h4 {
+  margin-top: 23px;
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#features .item__wrapper .item p {
+  margin-top: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
 }/*# sourceMappingURL=style.css.map */

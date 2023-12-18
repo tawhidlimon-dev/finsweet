@@ -283,6 +283,7 @@ margin: 0 auto;
           font-weight: 500;
           line-height: 28px;
           margin: 16px 0 40px 48px;
+          opacity: 0.8;
         }
         a{
           color: yellow;
@@ -354,11 +355,64 @@ margin: 0 auto;
 }
 // ========Projects code end===========
 
-// ========Common code start=========
-// ========Common code end===========
+// ========Features code start=========
+#features{
+  background: #F4F6FC;
+  padding: 128px 0;
+  .heading{
+    width: 630px;
+    text-align: center;
+    margin: 0 auto;
+    h6{
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 28px;
+    }
+    h2{
+      color: $primary;
+      font-size: 48px;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      line-height: 64px;
+      margin-top: 12px;
 
-// ========Common code start=========
-// ========Common code end===========
+    }
+  }
+  .item__wrapper{
+    margin-top: 47px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 24px;
+    .item{
+      width: 405px;
+      height: 316px;
+      background-color: #fff;
+      padding: 58px 33px 0 48px;
+      h4{
+        margin-top: 23px;
+        color: #282938;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+      }
+      p{
+        margin-top: 12px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        opacity: 0.7;
+      }
+    }
+  }
+}
+// ========Features code end===========
+
+// ========About us code start=========
+// ========About us code end===========
 
 // ========Common code start=========
 // ========Common code end===========
