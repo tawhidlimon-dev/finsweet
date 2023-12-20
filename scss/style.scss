@@ -758,8 +758,107 @@ margin: 0 auto;
 }
 // ========Blog code end===========
 
-// ========Common code start=========
-// ========Common code end===========
+// ========Bottom code start=========
+#bottom{
+  background: #1C1E53;
+  padding-top: 96px;
+  .bottom__wrapper{
+    display: flex;
+    column-gap: 260px;
+    .logo__wrapper{
+      width: 400px;
+      p{
+        margin-top: 22px;
+        color: #fff;
+        opacity: 0.8;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        font-family: 'Poppins', sans-serif;
+      }
+      .contact{
+        width: 517px;
+        height: 95px;
+        background-color: #FCD980;
+        margin-top: 86px;
+        padding: 18px 0 18px 37px;
+        display: flex;
+        column-gap: 30px;
+        .email{
+          display: flex;
+          flex-direction: column;
+          row-gap: 1px;
+          h6{
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px
+          }
+          span{
+            color: #282938;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            opacity: 0.8;
+          }
+        }
+        .call{
+          display: flex;
+          flex-direction: column;
+          row-gap: 1px;
+          h6{
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 32px
+          }
+          span{
+            color: #282938;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+            opacity: 0.8;
+          }
+        }
+      }
+    }
+    .info__wrapper{
+      width: 400px;
+      .heading{
+        h2{
+          color: #fff;
+          font-size: 48px;
+          font-weight: 600;
+          font-family: 'Poppins', sans-serif;
+          line-height: 64px;
+          margin-top: 12px;
+        }
+      }
+      p{
+        margin-top: 14px;
+        color: #F4F6FC;
+        opacity: 0.8;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px
+      }
+      .link{
+        margin-top: 28px;
+        display: flex;
+        column-gap: 27px;
+        i{
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+// ========Bottom code end===========
 
-// ========Common code start=========
-// ========Common code end===========
+// ========Footer code start=========
+// ========Footer code end===========
