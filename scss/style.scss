@@ -564,7 +564,6 @@ margin: 0 auto;
 
 // ========Websites code start=========
 #website{
-  padding: 96px 0 48px 0;
   .website__wrapper{
     display: flex;
     .heading__wrapper{
@@ -680,6 +679,87 @@ margin: 0 auto;
 }
 
 // ========Websites code end===========
+
+// ========Blog code start=========
+#blog{
+  background: #fff;
+  padding: 128px 0;
+  .heading{
+    h2{
+      color: $primary;
+      font-size: 48px;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      line-height: 64px;
+    }
+  }
+  .item__wrapper{
+   margin-top: 64px;
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 32px;
+   .item{
+    width: 405px;
+    .image{
+      width: 405px;
+      height: 285px;
+      overflow: hidden;
+      img{
+        width: 100%;
+        height: 100%;
+        
+      }
+    }
+    .date{
+      margin-top: 40px;
+      span{
+        color: #282938;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+      }
+    }
+    .info{
+      margin-top: 16px;
+      h5{
+        color: #282938;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 36px;
+      }
+      p{
+        margin-top: 16px;
+        color: #282938;
+        opacity: 0.7;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px; 
+      }
+    }
+    .more{
+      margin-top: 32px;
+      align-items: center;
+      span{
+        color: #282938;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+        i{
+          margin-left: 12px;
+        }
+      }
+    }
+   }
+  }
+}
+// ========Blog code end===========
+
+// ========Common code start=========
+// ========Common code end===========
 
 // ========Common code start=========
 // ========Common code end===========
