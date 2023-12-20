@@ -861,4 +861,34 @@ margin: 0 auto;
 // ========Bottom code end===========
 
 // ========Footer code start=========
+#footer{
+  padding: 32px;
+  .footer__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .copyright{
+      span{
+        color: #282938;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+      }
+    }
+    .menu ul{
+      display: flex;
+      align-items: center;
+      column-gap: 32px;
+      a{
+        display: inline-block;
+        color: #282938;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+      }
+    }
+  }
+}
 // ========Footer code end===========
